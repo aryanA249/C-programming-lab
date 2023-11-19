@@ -10,7 +10,8 @@ int main(){
             a=1;
             break;
         }}
-        if(a==0) printf("it is prime");
+        if(x==1) printf("1 is neither prime nor composite");
+        else if(a==0) printf("it is prime");
         
         else printf("it is composite");
         
